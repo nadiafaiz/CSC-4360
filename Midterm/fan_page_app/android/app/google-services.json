@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "318288626473",
+    "project_id": "fanpage-94300",
+    "storage_bucket": "fanpage-94300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318288626473:android:1a84ec2fb54a96ef686d38",
+        "android_client_info": {
+          "package_name": "com.example.fan_page_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318288626473-ckfcjit3aq7tqpmd26mhqlo3evkd45au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fan_page_app",
+            "certificate_hash": "dab1fbab825337edeae8ca85e4f29a5f30b86b26"
+          }
+        },
+        {
+          "client_id": "318288626473-fan50f6odeupjsqt0g4cfpjkopcm1pqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYFtRvTHd8xuZqpYJXVPoUzlN7jtVKDgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318288626473-fan50f6odeupjsqt0g4cfpjkopcm1pqi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318288626473-d8q33fsidu9333t9vlom84ma336tcutf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fanPageApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
