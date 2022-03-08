@@ -2,7 +2,6 @@
 
 This flutter application runs on both iOS and Android platforms. 
 
-- Download repo
 - Open VSCode or similar IDE
 - Choose Simulator for iOS (`open -a Simulator.app`)
 - Make sure XCode is open in the background
