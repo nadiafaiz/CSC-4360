@@ -3,6 +3,7 @@ import 'package:fan_page_app/app.dart';
 import 'package:fan_page_app/screens/screens.dart';
 import 'package:fan_page_app/widgets/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart' as firebase;
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart'
     as flutter;
@@ -24,9 +25,12 @@ class ProfileScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Hero(
+            const Hero(
               tag: 'hero-profile-picture',
-              child: Avatar.large(url: user?.image),
+              child: Icon(
+                CupertinoIcons.person,
+                size: 128,
+              ),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),

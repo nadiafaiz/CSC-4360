@@ -53,8 +53,11 @@ class HomeScreen extends StatelessWidget {
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 24.0),
-            child: Avatar.small(
-              url: context.currentUserImage,
+            child: InkWell(
+              child: const Icon(
+                CupertinoIcons.person_circle,
+                size: 36,
+              ),
               onTap: () {
                 Navigator.of(context).push(ProfileScreen.route);
               },

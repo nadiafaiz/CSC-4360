@@ -346,9 +346,7 @@ class _AppBarTitle extends StatelessWidget {
     final channel = StreamChannel.of(context).channel;
     return Row(
       children: [
-        Avatar.small(
-          url: Helpers.getChannelImage(channel, context.currentUser!),
-        ),
+        const Icon(CupertinoIcons.person_2_alt),
         const SizedBox(
           width: 24,
         ),

@@ -1,6 +1,7 @@
 import 'package:fan_page_app/app.dart';
 import 'package:fan_page_app/screens/messaging/chat_screen.dart';
 import 'package:fan_page_app/widgets/widgets.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
 
@@ -68,7 +69,10 @@ class _ContactTile extends StatelessWidget {
         createChannel(context);
       },
       child: ListTile(
-        leading: Avatar.small(url: user.image),
+        leading: const Icon(
+          CupertinoIcons.person_circle_fill,
+          size: 40,
+        ),
         title: Text(user.name),
       ),
     );

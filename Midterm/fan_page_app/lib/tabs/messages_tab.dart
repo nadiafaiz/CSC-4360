@@ -2,6 +2,7 @@ import 'package:fan_page_app/helpers.dart';
 import 'package:fan_page_app/screens/screens.dart';
 import 'package:fan_page_app/theme.dart';
 import 'package:fan_page_app/widgets/widgets.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:jiffy/jiffy.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
@@ -96,13 +97,11 @@ class _MessageTile extends StatelessWidget {
           padding: const EdgeInsets.all(4),
           child: Row(
             children: [
-              Padding(
-                padding: const EdgeInsets.all(10),
-                child: Avatar.medium(
-                  url: Helpers.getChannelImage(
-                    channel,
-                    context.currentUser!,
-                  ),
+              const Padding(
+                padding: EdgeInsets.all(20),
+                child: Icon(
+                  CupertinoIcons.person_circle_fill,
+                  size: 40,
                 ),
               ),
               Expanded(
